@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Окружение
+venv/
+.venv/
+
+# Датасет MNIST
+data/
+MNIST/
+
+# Системные файлы
+.DS_Store
+
+# Веса можно не отправлять
+*.pt
+*.pth
