@@ -10,7 +10,7 @@ venv/
 # Датасет MNIST
 data/
 MNIST/
-
+Flowers/
 # Системные файлы
 .DS_Store
 
