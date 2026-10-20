@@ -1,0 +1,16 @@
+{
+  "input_name": "input",
+  "input_shape": [
+    1,
+    1,
+    28,
+    28
+  ],
+  "input_dtype": "float32",
+  "output_name": "logits",
+  "preprocessing": {
+    "resize": null,
+    "to_tensor": "grayscale, float32, значения от 0 до 1",
+    "normalize": null
+  }
+}

@@ -1,0 +1,8 @@
+машина: x86_64, onnxruntime 1.31.0
+провайдеры: ['AzureExecutionProvider', 'CPUExecutionProvider']
+
+модель                             потоков   p50, мс   p95, мс  кадров/с
+mobilenet_v2_fp32.onnx (14.0 МБ)         1       6.8       6.9     146.2
+mobilenet_v2_fp32.onnx (14.0 МБ)         4       2.1       2.1     477.6
+mobilenet_v2_int8.onnx (3.9 МБ)          1       3.8       3.8     264.0
+mobilenet_v2_int8.onnx (3.9 МБ)          4       1.4       1.4     708.5

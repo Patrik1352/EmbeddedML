@@ -1,0 +1,16 @@
+{
+  "lenet": {
+    "n_samples": 100,
+    "max_abs_diff": 4.76837158203125e-06,
+    "prediction_agreement": 1.0,
+    "torch_accuracy_100": 1.0,
+    "onnx_accuracy_100": 1.0
+  },
+  "mobilenet": {
+    "n_samples": 100,
+    "max_abs_diff": 9.59634780883789e-06,
+    "prediction_agreement": 1.0,
+    "torch_accuracy_100": 0.77,
+    "onnx_accuracy_100": 0.77
+  }
+}

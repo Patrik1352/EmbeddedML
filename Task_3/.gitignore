@@ -1,0 +1,12 @@
+# Модели стенда: доступны на Raspberry Pi.
+hw3/reference_models/*.onnx
+
+# Сохраняем только выбранные собственные модели.
+hw3/*.onnx
+!hw3/lenet_fp32.onnx
+!hw3/lenet_int8.onnx
+!hw3/mobilenet_int8.onnx
+!hw3/mobilenet_int8_mixed.onnx
+
+# Большой набор входов: создаётся ноутбуком.
+hw3/flowers_val64.npz

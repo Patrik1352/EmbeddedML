@@ -1,0 +1,8 @@
+машина: x86_64, onnxruntime 1.31.0
+провайдеры: ['AzureExecutionProvider', 'CPUExecutionProvider']
+
+модель                             потоков   p50, мс   p95, мс  кадров/с
+vgg16_fp32.onnx (553.4 МБ)               1     249.5     287.0       4.0
+vgg16_fp32.onnx (553.4 МБ)               4      63.7      64.9      15.7
+vgg16_int8.onnx (138.6 МБ)               1      63.5      64.0      15.7
+vgg16_int8.onnx (138.6 МБ)               4      17.9      17.9      55.9

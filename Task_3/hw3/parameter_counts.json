@@ -1,0 +1,6 @@
+{
+  "LeNet": 44426,
+  "MobileNetV3-Large, Flowers102": 4332694,
+  "MobileNetV2, ImageNet": 3504872,
+  "VGG16, ImageNet": 138357544
+}

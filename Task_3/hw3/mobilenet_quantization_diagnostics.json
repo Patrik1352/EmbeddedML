@@ -1,0 +1,740 @@
+[
+  {
+    "tensor": "/features/features.4/block/block.2/activation/Relu_output_0",
+    "order": 24,
+    "total_error_pct": 0.0,
+    "local_rounding_pct": 0.0
+  },
+  {
+    "tensor": "/features/features.8/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 62,
+    "total_error_pct": 33.90843770534238,
+    "local_rounding_pct": 1.4184208118302122
+  },
+  {
+    "tensor": "/features/features.6/block/block.2/Mul_output_0",
+    "order": 50,
+    "total_error_pct": 35.317609135374525,
+    "local_rounding_pct": 1.6557899903237452
+  },
+  {
+    "tensor": "/classifier/classifier.1/HardSwish_output_0",
+    "order": 159,
+    "total_error_pct": 101.5031826659195,
+    "local_rounding_pct": 1.749071149473263
+  },
+  {
+    "tensor": "/features/features.1/block/block.1/block.1.0/Conv_output_0",
+    "order": 5,
+    "total_error_pct": 29.979407235046583,
+    "local_rounding_pct": 3.6921881101431033
+  },
+  {
+    "tensor": "/features/features.12/block/block.2/Mul_output_0",
+    "order": 108,
+    "total_error_pct": 91.68660189310678,
+    "local_rounding_pct": 2.878566147137908
+  },
+  {
+    "tensor": "/features/features.14/block/block.2/fc1/Conv_output_0",
+    "order": 131,
+    "total_error_pct": 80.01805312542758,
+    "local_rounding_pct": 2.2293097326004214
+  },
+  {
+    "tensor": "/features/features.4/block/block.2/Mul_output_0",
+    "order": 27,
+    "total_error_pct": 16.83168226061394,
+    "local_rounding_pct": 0.6907709593063754
+  },
+  {
+    "tensor": "/features/features.11/block/block.2/fc2/Conv_output_0",
+    "order": 93,
+    "total_error_pct": 21.980102192818098,
+    "local_rounding_pct": 1.1705330920146508
+  },
+  {
+    "tensor": "/features/features.3/block/block.1/block.1.0/Conv_output_0",
+    "order": 14,
+    "total_error_pct": 23.289045540562565,
+    "local_rounding_pct": 2.161072800375908
+  },
+  {
+    "tensor": "/features/features.15/block/block.2/Mul_output_0",
+    "order": 149,
+    "total_error_pct": 95.15168702036652,
+    "local_rounding_pct": 5.991467725685289
+  },
+  {
+    "tensor": "/features/features.13/block/block.2/activation/Relu_output_0",
+    "order": 119,
+    "total_error_pct": 57.19561302907318,
+    "local_rounding_pct": 0.46664800026610725
+  },
+  {
+    "tensor": "/features/features.11/block/block.2/avgpool/GlobalAveragePool_output_0",
+    "order": 90,
+    "total_error_pct": 48.233056679057235,
+    "local_rounding_pct": 1.0139426569211363
+  },
+  {
+    "tensor": "/features/features.10/Add_output_0",
+    "order": 83,
+    "total_error_pct": 58.940993107317595,
+    "local_rounding_pct": 6.269620167267413
+  },
+  {
+    "tensor": "/features/features.15/block/block.2/fc2/Conv_output_0",
+    "order": 147,
+    "total_error_pct": 12.869572727466059,
+    "local_rounding_pct": 0.3939962036149174
+  },
+  {
+    "tensor": "/features/features.6/block/block.2/fc1/Conv_output_0",
+    "order": 46,
+    "total_error_pct": 22.71923979095981,
+    "local_rounding_pct": 0.8133530947888274
+  },
+  {
+    "tensor": "/features/features.4/block/block.2/fc1/Conv_output_0",
+    "order": 23,
+    "total_error_pct": 2.9721826410847663,
+    "local_rounding_pct": 0.3983853584687654
+  },
+  {
+    "tensor": "/features/features.2/block/block.2/block.2.0/Conv_output_0",
+    "order": 11,
+    "total_error_pct": 25.01399272210821,
+    "local_rounding_pct": 2.724700704285703
+  },
+  {
+    "tensor": "/features/features.3/Add_output_0",
+    "order": 17,
+    "total_error_pct": 49.85638970862488,
+    "local_rounding_pct": 2.5543276919329188
+  },
+  {
+    "tensor": "/features/features.12/block/block.2/avgpool/GlobalAveragePool_output_0",
+    "order": 103,
+    "total_error_pct": 75.14705588199448,
+    "local_rounding_pct": 1.2894757689779979
+  },
+  {
+    "tensor": "/features/features.6/block/block.2/activation/Relu_output_0",
+    "order": 47,
+    "total_error_pct": 22.449273905578586,
+    "local_rounding_pct": 0.2940583364617642
+  },
+  {
+    "tensor": "/features/features.3/block/block.0/block.0.0/Conv_output_0",
+    "order": 12,
+    "total_error_pct": 15.405072462309,
+    "local_rounding_pct": 2.609767081008513
+  },
+  {
+    "tensor": "/features/features.4/block/block.3/block.3.0/Conv_output_0",
+    "order": 28,
+    "total_error_pct": 40.672328037038056,
+    "local_rounding_pct": 1.4528604730891823
+  },
+  {
+    "tensor": "/features/features.12/block/block.2/fc2/Conv_output_0",
+    "order": 106,
+    "total_error_pct": 9.926481607600051,
+    "local_rounding_pct": 0.3931720463505716
+  },
+  {
+    "tensor": "/features/features.14/Add_output_0",
+    "order": 137,
+    "total_error_pct": 105.09424569595167,
+    "local_rounding_pct": 1.7034700726895697
+  },
+  {
+    "tensor": "/features/features.4/block/block.0/block.0.0/Conv_output_0",
+    "order": 18,
+    "total_error_pct": 39.801535104770196,
+    "local_rounding_pct": 2.579185392232776
+  },
+  {
+    "tensor": "/features/features.13/block/block.2/fc2/Conv_output_0",
+    "order": 120,
+    "total_error_pct": 14.23537210222138,
+    "local_rounding_pct": 0.4629562088286724
+  },
+  {
+    "tensor": "/features/features.5/block/block.2/fc1/Conv_output_0",
+    "order": 34,
+    "total_error_pct": 29.582310108012518,
+    "local_rounding_pct": 0.7671873620259303
+  },
+  {
+    "tensor": "/features/features.10/block/block.2/block.2.0/Conv_output_0",
+    "order": 82,
+    "total_error_pct": 69.74223549656257,
+    "local_rounding_pct": 9.689529990998846
+  },
+  {
+    "tensor": "/features/features.4/block/block.0/block.0.2/Relu_output_0",
+    "order": 19,
+    "total_error_pct": 35.461906566330995,
+    "local_rounding_pct": 1.34642482295112
+  },
+  {
+    "tensor": "/features/features.7/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 55,
+    "total_error_pct": 41.68350399148136,
+    "local_rounding_pct": 2.5449795510286313
+  },
+  {
+    "tensor": "/features/features.2/block/block.1/block.1.2/Relu_output_0",
+    "order": 10,
+    "total_error_pct": 12.170578041879747,
+    "local_rounding_pct": 1.3145976846448577
+  },
+  {
+    "tensor": "/features/features.3/block/block.2/block.2.0/Conv_output_0",
+    "order": 16,
+    "total_error_pct": 53.889083431769905,
+    "local_rounding_pct": 3.2270007110056826
+  },
+  {
+    "tensor": "/features/features.12/block/block.1/block.1.0/Conv_output_0",
+    "order": 100,
+    "total_error_pct": 84.08919194725088,
+    "local_rounding_pct": 17.2626725149649
+  },
+  {
+    "tensor": "/features/features.12/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 99,
+    "total_error_pct": 66.43621321070242,
+    "local_rounding_pct": 9.823627492300025
+  },
+  {
+    "tensor": "/features/features.7/block/block.1/block.1.2/HardSwish_output_0",
+    "order": 58,
+    "total_error_pct": 17.84587378666443,
+    "local_rounding_pct": 0.7916798354892454
+  },
+  {
+    "tensor": "/features/features.9/block/block.2/block.2.0/Conv_output_0",
+    "order": 74,
+    "total_error_pct": 62.53680741854938,
+    "local_rounding_pct": 3.9560873905870735
+  },
+  {
+    "tensor": "/features/features.5/block/block.2/Mul_output_0",
+    "order": 38,
+    "total_error_pct": 37.06783887827034,
+    "local_rounding_pct": 1.0160855727414695
+  },
+  {
+    "tensor": "/features/features.6/block/block.2/fc2/Conv_output_0",
+    "order": 48,
+    "total_error_pct": 12.399314142374438,
+    "local_rounding_pct": 0.5999507266821371
+  },
+  {
+    "tensor": "/features/features.8/block/block.2/block.2.0/Conv_output_0",
+    "order": 66,
+    "total_error_pct": 53.26967558398393,
+    "local_rounding_pct": 4.595064879470452
+  },
+  {
+    "tensor": "/features/features.14/block/block.2/fc2/Conv_output_0",
+    "order": 133,
+    "total_error_pct": 13.822358037870695,
+    "local_rounding_pct": 0.39084676400554225
+  },
+  {
+    "tensor": "/features/features.13/block/block.0/block.0.0/Conv_output_0",
+    "order": 111,
+    "total_error_pct": 59.767953721684975,
+    "local_rounding_pct": 6.5955841746457065
+  },
+  {
+    "tensor": "/features/features.3/block/block.1/block.1.2/Relu_output_0",
+    "order": 15,
+    "total_error_pct": 18.578321942456753,
+    "local_rounding_pct": 0.8094266937264796
+  },
+  {
+    "tensor": "/features/features.4/block/block.2/avgpool/GlobalAveragePool_output_0",
+    "order": 22,
+    "total_error_pct": 6.314022659052506,
+    "local_rounding_pct": 0.2927619317250644
+  },
+  {
+    "tensor": "/features/features.13/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 113,
+    "total_error_pct": 87.53813786666005,
+    "local_rounding_pct": 16.922597947388173
+  },
+  {
+    "tensor": "/features/features.5/block/block.3/block.3.0/Conv_output_0",
+    "order": 39,
+    "total_error_pct": 43.285156841387625,
+    "local_rounding_pct": 2.6584157427573527
+  },
+  {
+    "tensor": "/features/features.7/block/block.0/block.0.0/Conv_output_0",
+    "order": 53,
+    "total_error_pct": 38.646331934146716,
+    "local_rounding_pct": 2.319730658876191
+  },
+  {
+    "tensor": "/features/features.2/block/block.0/block.0.2/Relu_output_0",
+    "order": 8,
+    "total_error_pct": 23.160353962412593,
+    "local_rounding_pct": 0.45532629197243457
+  },
+  {
+    "tensor": "/features/features.9/block/block.0/block.0.0/Conv_output_0",
+    "order": 68,
+    "total_error_pct": 35.804338136438794,
+    "local_rounding_pct": 2.9708419364833625
+  },
+  {
+    "tensor": "/features/features.8/block/block.1/block.1.2/HardSwish_output_0",
+    "order": 65,
+    "total_error_pct": 12.736742885129503,
+    "local_rounding_pct": 1.0193367080724534
+  },
+  {
+    "tensor": "/features/features.8/block/block.0/block.0.0/Conv_output_0",
+    "order": 60,
+    "total_error_pct": 32.32793791882321,
+    "local_rounding_pct": 2.14357458151577
+  },
+  {
+    "tensor": "/features/features.5/block/block.0/block.0.2/Relu_output_0",
+    "order": 30,
+    "total_error_pct": 23.925953766854093,
+    "local_rounding_pct": 0.8296028355169807
+  },
+  {
+    "tensor": "/features/features.15/block/block.2/fc1/Conv_output_0",
+    "order": 145,
+    "total_error_pct": 77.71861988738299,
+    "local_rounding_pct": 1.1475266164486277
+  },
+  {
+    "tensor": "/features/features.13/block/block.2/fc1/Conv_output_0",
+    "order": 118,
+    "total_error_pct": 74.49154427200628,
+    "local_rounding_pct": 0.8711229636950566
+  },
+  {
+    "tensor": "/features/features.11/block/block.2/Mul_output_0",
+    "order": 95,
+    "total_error_pct": 73.66652056022316,
+    "local_rounding_pct": 2.0998145855659005
+  },
+  {
+    "tensor": "/features/features.11/block/block.2/activation/Relu_output_0",
+    "order": 92,
+    "total_error_pct": 41.394362796462914,
+    "local_rounding_pct": 0.4267652175678897
+  },
+  {
+    "tensor": "/features/features.6/block/block.1/block.1.0/Conv_output_0",
+    "order": 43,
+    "total_error_pct": 42.14811385154864,
+    "local_rounding_pct": 3.4442910550826698
+  },
+  {
+    "tensor": "/Flatten_output_0",
+    "order": 156,
+    "total_error_pct": 90.58208673824343,
+    "local_rounding_pct": 3.347343572999862
+  },
+  {
+    "tensor": "/features/features.15/block/block.1/block.1.0/Conv_output_0",
+    "order": 141,
+    "total_error_pct": 86.46762771539707,
+    "local_rounding_pct": 10.477791915398349
+  },
+  {
+    "tensor": "/features/features.10/block/block.1/block.1.0/Conv_output_0",
+    "order": 79,
+    "total_error_pct": 25.372775356917305,
+    "local_rounding_pct": 4.387004525268195
+  },
+  {
+    "tensor": "/features/features.2/block/block.1/block.1.0/Conv_output_0",
+    "order": 9,
+    "total_error_pct": 18.96678320695081,
+    "local_rounding_pct": 2.914251607546277
+  },
+  {
+    "tensor": "/features/features.0/features.0.2/HardSwish_output_0",
+    "order": 2,
+    "total_error_pct": 3.0083245253114828,
+    "local_rounding_pct": 1.2438355740918796
+  },
+  {
+    "tensor": "/features/features.4/block/block.1/block.1.0/Conv_output_0",
+    "order": 20,
+    "total_error_pct": 21.997979207537245,
+    "local_rounding_pct": 1.7551738215258295
+  },
+  {
+    "tensor": "/features/features.9/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 70,
+    "total_error_pct": 34.41479076873388,
+    "local_rounding_pct": 1.8570360590653336
+  },
+  {
+    "tensor": "/features/features.15/Add_output_0",
+    "order": 151,
+    "total_error_pct": 115.62089738977588,
+    "local_rounding_pct": 3.795324330412189
+  },
+  {
+    "tensor": "/features/features.9/block/block.1/block.1.2/HardSwish_output_0",
+    "order": 73,
+    "total_error_pct": 11.779484414909598,
+    "local_rounding_pct": 1.0350283431728404
+  },
+  {
+    "tensor": "/features/features.12/block/block.2/fc1/Conv_output_0",
+    "order": 104,
+    "total_error_pct": 54.60587566372313,
+    "local_rounding_pct": 0.7726303656530322
+  },
+  {
+    "tensor": "/features/features.9/Add_output_0",
+    "order": 75,
+    "total_error_pct": 54.32136620878308,
+    "local_rounding_pct": 2.6929094773363063
+  },
+  {
+    "tensor": "/features/features.3/block/block.0/block.0.2/Relu_output_0",
+    "order": 13,
+    "total_error_pct": 15.129212055259162,
+    "local_rounding_pct": 1.1634667225268946
+  },
+  {
+    "tensor": "/features/features.14/block/block.0/block.0.0/Conv_output_0",
+    "order": 124,
+    "total_error_pct": 62.708702202133416,
+    "local_rounding_pct": 6.229381974074009
+  },
+  {
+    "tensor": "/features/features.11/block/block.1/block.1.0/Conv_output_0",
+    "order": 87,
+    "total_error_pct": 65.13464175054831,
+    "local_rounding_pct": 23.42971278443042
+  },
+  {
+    "tensor": "/features/features.5/block/block.2/fc2/Conv_output_0",
+    "order": 36,
+    "total_error_pct": 19.611049865167885,
+    "local_rounding_pct": 0.6334168720191956
+  },
+  {
+    "tensor": "/features/features.14/block/block.2/Mul_output_0",
+    "order": 135,
+    "total_error_pct": 90.83136195842992,
+    "local_rounding_pct": 3.0478097968909412
+  },
+  {
+    "tensor": "input",
+    "order": 1000000000,
+    "total_error_pct": 0.514290783724175,
+    "local_rounding_pct": 0.514290783724175
+  },
+  {
+    "tensor": "/features/features.15/block/block.0/block.0.0/Conv_output_0",
+    "order": 138,
+    "total_error_pct": 57.90071000646635,
+    "local_rounding_pct": 5.894879006432857
+  },
+  {
+    "tensor": "/features/features.6/block/block.0/block.0.2/Relu_output_0",
+    "order": 42,
+    "total_error_pct": 25.80138088697663,
+    "local_rounding_pct": 0.848283820161089
+  },
+  {
+    "tensor": "/features/features.5/block/block.1/block.1.0/Conv_output_0",
+    "order": 31,
+    "total_error_pct": 40.65973993922811,
+    "local_rounding_pct": 2.5137012515362422
+  },
+  {
+    "tensor": "/features/features.14/block/block.2/activation/Relu_output_0",
+    "order": 132,
+    "total_error_pct": 67.21881230270628,
+    "local_rounding_pct": 0.49261045890106775
+  },
+  {
+    "tensor": "/features/features.12/block/block.3/block.3.0/Conv_output_0",
+    "order": 109,
+    "total_error_pct": 136.27450314768828,
+    "local_rounding_pct": 1.4711098864756749
+  },
+  {
+    "tensor": "/features/features.5/block/block.2/avgpool/GlobalAveragePool_output_0",
+    "order": 33,
+    "total_error_pct": 20.000308339254044,
+    "local_rounding_pct": 0.3503860191972028
+  },
+  {
+    "tensor": "/features/features.11/block/block.3/block.3.0/Conv_output_0",
+    "order": 96,
+    "total_error_pct": 81.51012003580131,
+    "local_rounding_pct": 1.9376769428996545
+  },
+  {
+    "tensor": "/features/features.5/block/block.0/block.0.0/Conv_output_0",
+    "order": 29,
+    "total_error_pct": 26.994149564866945,
+    "local_rounding_pct": 1.6109432320559403
+  },
+  {
+    "tensor": "/features/features.5/block/block.2/activation/Relu_output_0",
+    "order": 35,
+    "total_error_pct": 27.976792539077767,
+    "local_rounding_pct": 0.35878432554606693
+  },
+  {
+    "tensor": "/features/features.11/block/block.2/fc1/Conv_output_0",
+    "order": 91,
+    "total_error_pct": 46.07432397336221,
+    "local_rounding_pct": 0.784312557346162
+  },
+  {
+    "tensor": "/features/features.4/block/block.2/fc2/Conv_output_0",
+    "order": 25,
+    "total_error_pct": 0.7180316841401161,
+    "local_rounding_pct": 0.7180317124712933
+  },
+  {
+    "tensor": "/features/features.6/block/block.0/block.0.0/Conv_output_0",
+    "order": 41,
+    "total_error_pct": 30.46695201837449,
+    "local_rounding_pct": 1.835389520399539
+  },
+  {
+    "tensor": "/features/features.11/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 86,
+    "total_error_pct": 41.05638386852612,
+    "local_rounding_pct": 3.2496021166659417
+  },
+  {
+    "tensor": "/classifier/classifier.0/Gemm_output_0",
+    "order": 157,
+    "total_error_pct": 96.77480204577972,
+    "local_rounding_pct": 2.519934728409833
+  },
+  {
+    "tensor": "/features/features.15/block/block.3/block.3.0/Conv_output_0",
+    "order": 150,
+    "total_error_pct": 132.23447361915188,
+    "local_rounding_pct": 6.352472624411018
+  },
+  {
+    "tensor": "/features/features.14/block/block.2/avgpool/GlobalAveragePool_output_0",
+    "order": 130,
+    "total_error_pct": 88.41112465369989,
+    "local_rounding_pct": 42.612479398283384
+  },
+  {
+    "tensor": "/features/features.8/block/block.1/block.1.0/Conv_output_0",
+    "order": 63,
+    "total_error_pct": 21.374160941497813,
+    "local_rounding_pct": 1.7165561285286808
+  },
+  {
+    "tensor": "/features/features.13/block/block.1/block.1.0/Conv_output_0",
+    "order": 114,
+    "total_error_pct": 97.39857168061208,
+    "local_rounding_pct": 9.52582955867228
+  },
+  {
+    "tensor": "/features/features.10/block/block.1/block.1.2/HardSwish_output_0",
+    "order": 81,
+    "total_error_pct": 20.08259054612863,
+    "local_rounding_pct": 3.3868183320229854
+  },
+  {
+    "tensor": "/features/features.6/block/block.2/avgpool/GlobalAveragePool_output_0",
+    "order": 45,
+    "total_error_pct": 14.207652075310953,
+    "local_rounding_pct": 0.4599535029152042
+  },
+  {
+    "tensor": "/features/features.8/Add_output_0",
+    "order": 67,
+    "total_error_pct": 52.550339518624575,
+    "local_rounding_pct": 1.9957424617123396
+  },
+  {
+    "tensor": "/features/features.16/features.16.0/Conv_output_0",
+    "order": 152,
+    "total_error_pct": 80.57181658724252,
+    "local_rounding_pct": 2.253240509544699
+  },
+  {
+    "tensor": "/features/features.7/block/block.1/block.1.0/Conv_output_0",
+    "order": 56,
+    "total_error_pct": 18.590052233954026,
+    "local_rounding_pct": 1.776800955477818
+  },
+  {
+    "tensor": "/features/features.13/block/block.2/avgpool/GlobalAveragePool_output_0",
+    "order": 117,
+    "total_error_pct": 81.23624427368668,
+    "local_rounding_pct": 0.756308909899823
+  },
+  {
+    "tensor": "/features/features.14/block/block.3/block.3.0/Conv_output_0",
+    "order": 136,
+    "total_error_pct": 131.16854879948576,
+    "local_rounding_pct": 1.917340806136551
+  },
+  {
+    "tensor": "/features/features.7/block/block.2/block.2.0/Conv_output_0",
+    "order": 59,
+    "total_error_pct": 50.94654892775097,
+    "local_rounding_pct": 1.598408153764632
+  },
+  {
+    "tensor": "/features/features.10/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 78,
+    "total_error_pct": 40.780277361360454,
+    "local_rounding_pct": 2.7762560303712642
+  },
+  {
+    "tensor": "/features/features.13/block/block.3/block.3.0/Conv_output_0",
+    "order": 123,
+    "total_error_pct": 95.46295651779847,
+    "local_rounding_pct": 1.498329232467527
+  },
+  {
+    "tensor": "/features/features.9/block/block.1/block.1.0/Conv_output_0",
+    "order": 71,
+    "total_error_pct": 20.22670208160812,
+    "local_rounding_pct": 1.1222740396059225
+  },
+  {
+    "tensor": "/features/features.2/block/block.0/block.0.0/Conv_output_0",
+    "order": 7,
+    "total_error_pct": 26.02497114307524,
+    "local_rounding_pct": 4.037944429060144
+  },
+  {
+    "tensor": "/features/features.5/Add_output_0",
+    "order": 40,
+    "total_error_pct": 46.65069856498132,
+    "local_rounding_pct": 1.536732814713193
+  },
+  {
+    "tensor": "/features/features.1/Add_output_0",
+    "order": 6,
+    "total_error_pct": 14.575944976110906,
+    "local_rounding_pct": 1.3368222729588248
+  },
+  {
+    "tensor": "/features/features.1/block/block.0/block.0.0/Conv_output_0",
+    "order": 3,
+    "total_error_pct": 15.395285302137815,
+    "local_rounding_pct": 1.6854357725374136
+  },
+  {
+    "tensor": "/features/features.1/block/block.0/block.0.2/Relu_output_0",
+    "order": 4,
+    "total_error_pct": 14.0786330454513,
+    "local_rounding_pct": 0.8259004273884487
+  },
+  {
+    "tensor": "/features/features.13/block/block.2/Mul_output_0",
+    "order": 122,
+    "total_error_pct": 66.70376774979698,
+    "local_rounding_pct": 2.4424507302110197
+  },
+  {
+    "tensor": "logits",
+    "order": 160,
+    "total_error_pct": 81.9558367359371,
+    "local_rounding_pct": 1.5720501595336012
+  },
+  {
+    "tensor": "/features/features.15/block/block.2/avgpool/GlobalAveragePool_output_0",
+    "order": 144,
+    "total_error_pct": 91.94173177586073,
+    "local_rounding_pct": 1.4197359444760171
+  },
+  {
+    "tensor": "/features/features.12/block/block.0/block.0.0/Conv_output_0",
+    "order": 97,
+    "total_error_pct": 53.5002760655262,
+    "local_rounding_pct": 6.444091819889695
+  },
+  {
+    "tensor": "/features/features.12/Add_output_0",
+    "order": 110,
+    "total_error_pct": 101.93130637425398,
+    "local_rounding_pct": 2.208240428213547
+  },
+  {
+    "tensor": "/features/features.0/features.0.0/Conv_output_0",
+    "order": 0,
+    "total_error_pct": 2.2947202875546213,
+    "local_rounding_pct": 2.199094162116345
+  },
+  {
+    "tensor": "/features/features.15/block/block.2/activation/Relu_output_0",
+    "order": 146,
+    "total_error_pct": 70.17559128733507,
+    "local_rounding_pct": 0.43801196726732816
+  },
+  {
+    "tensor": "/features/features.12/block/block.2/activation/Relu_output_0",
+    "order": 105,
+    "total_error_pct": 45.51347768646759,
+    "local_rounding_pct": 0.37828701462100284
+  },
+  {
+    "tensor": "/features/features.10/block/block.0/block.0.0/Conv_output_0",
+    "order": 76,
+    "total_error_pct": 35.463275892952836,
+    "local_rounding_pct": 2.860394777178843
+  },
+  {
+    "tensor": "/features/features.14/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 126,
+    "total_error_pct": 83.9109482894505,
+    "local_rounding_pct": 6.685879941790586
+  },
+  {
+    "tensor": "/features/features.14/block/block.1/block.1.0/Conv_output_0",
+    "order": 127,
+    "total_error_pct": 97.88311078500922,
+    "local_rounding_pct": 14.858647376846543
+  },
+  {
+    "tensor": "/features/features.6/block/block.3/block.3.0/Conv_output_0",
+    "order": 51,
+    "total_error_pct": 50.14108951318639,
+    "local_rounding_pct": 2.8602455013655472
+  },
+  {
+    "tensor": "/features/features.6/Add_output_0",
+    "order": 52,
+    "total_error_pct": 52.04957379059402,
+    "local_rounding_pct": 1.5791759858088112
+  },
+  {
+    "tensor": "/features/features.11/block/block.0/block.0.0/Conv_output_0",
+    "order": 84,
+    "total_error_pct": 42.76692276311502,
+    "local_rounding_pct": 5.514938793678577
+  },
+  {
+    "tensor": "/features/features.15/block/block.0/block.0.2/HardSwish_output_0",
+    "order": 140,
+    "total_error_pct": 92.0716994644119,
+    "local_rounding_pct": 9.113838283715182
+  }
+]
